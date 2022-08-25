@@ -53,6 +53,8 @@
 <!--                        <checkModificationExcludes>-->
 <!--                            <checkModificationExclude>pom.xml</checkModificationExclude>-->
 <!--                        </checkModificationExcludes>-->
+                        <localCheckout>true</localCheckout>
+                        <pushChanges>false</pushChanges>
                         <goals>install</goals>
                     </configuration>
                 </plugin>
