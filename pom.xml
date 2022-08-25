@@ -17,12 +17,12 @@
     <version>0.0.1</version>
     <name>sfg-pet-clinic</name>
 
-    <scm>
-        <connection>scm:svn:https://github.com/ilya-yedomakha/sfg-pet-clinic.git</connection>
-        <developerConnection>scm:svn:https://github.com/ilya-yedomakha/sfg-pet-clinic.git</developerConnection>
-        <url>https://github.com/ilya-yedomakha/sfg-pet-clinic.git</url>
-      <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+<!--    <scm>-->
+<!--        <connection>scm:svn:https://github.com/ilya-yedomakha/sfg-pet-clinic.git</connection>-->
+<!--        <developerConnection>scm:svn:https://github.com/ilya-yedomakha/sfg-pet-clinic.git</developerConnection>-->
+<!--        <url>https://github.com/ilya-yedomakha/sfg-pet-clinic.git</url>-->
+<!--      <tag>sfg-pet-clinic-0.0.1</tag>-->
+<!--  </scm>-->
 
     <description>sfg-pet-clinic</description>
     <properties>
@@ -61,14 +61,14 @@
                     <artifactId>maven-scm-plugin</artifactId>
                     <version>1.13.0</version>
                     <configuration>
-                        <connectionType>connection</connectionType>
+                        <connectionType>developerConnection</connectionType>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
 
-<!--    <scm>-->
-<!--        <developerConnection>scm:git:git@github.com:ilya-yedomakha/sfg-pet-clinic.git</developerConnection>-->
-<!--    </scm>-->
+    <scm>
+        <developerConnection>scm:git:git@github.com:ilya-yedomakha/sfg-pet-clinic.git</developerConnection>
+    </scm>
 </project>
