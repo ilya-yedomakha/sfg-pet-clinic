@@ -10,6 +10,10 @@
     <name>Archetype - pet-clinic-data</name>
     <url>http://maven.apache.org</url>
 
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -38,29 +42,14 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
+<!--        <pluginManagement>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <skip>true</skip>
-                            <excludes>
-                                <exclude>
-                                    <groupId>org.projectlombok</groupId>
-                                    <artifactId>lombok</artifactId>
-                                </exclude>
-                            </excludes>
-                        </configuration>
-                    </execution>
-                </executions>
+
             </plugin>
         </plugins>
-        </pluginManagement>
+<!--        </pluginManagement>-->
     </build>
 </project>
