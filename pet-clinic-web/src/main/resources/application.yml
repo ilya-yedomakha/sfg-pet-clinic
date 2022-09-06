@@ -1,7 +1,0 @@
-spring:
-  banner:
-   image:
-    location: saul_goodman_3.jpg
-
-server:
-  port: 8080
